@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="z" id="svg-leaf" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 512 512" overflow="scroll" xml:space="preserve">
+<g>
+	<path fill="rgba(0,0,0,0)" d="M134.4,490.1c0.2,3.3,6.8,6.6,6.8,6.6c6.2,2.1,13.2,6.6,18.1,5.6c50.6-102.5,144.2-289.5,195.3-374.5
+		L134.4,490.1z"/>
+	<path fill="#90EE90" d="M419.4,0c-462,263.6-320.1,453-285,490.1l220.1-362.3c1.8-3,3.5-5.9,5.2-8.6l-5.2,8.6c-51,85-144.7,272-195.3,374.5
+		C489.7,594.5,419.4,0,419.4,0z"/>
+</g>
+</svg>

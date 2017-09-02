@@ -1,0 +1,43 @@
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Forget for Charity</title>
+    <meta name="application-name" content="ForgetForCharity">
+    <meta name="description" content="Laziness for a cause">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" type="text/css" href="{% static 'forgetforcharity/style.css' %}"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+
+    <script src="{% static 'forgetforcharity/js/index.js' %}"></script>
+    {#    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>#}
+    {#    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>#}
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+</head>
+<body>
+<div id="nav-bar" class="flex-row-between">
+    <p id="small-logo">Forget for Charity</p>
+    <div class="flex-row-between">
+        <button>Sign In</button>
+        <button>Sign Up</button>
+    </div>
+</div>
+
+<div class="section-container flex-col-center" id="main-title-container">
+    {% include 'forgetforcharity/svg/forgetforcharity-leaves.svg' %}
+    <div class="flex-row-center">
+        <button id="sign-in">Sign In</button>
+        <button id="sign-up">Sign Up</button>
+    </div>
+</div>
+</div>
+<div id="section-1" class='section-container flex-col-center'>
+    <p>test</p>
+</div>
+</body>
