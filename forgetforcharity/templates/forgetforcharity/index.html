@@ -28,16 +28,24 @@
         <button>Sign Up</button>
     </div>
 </div>
-
-<div class="section-container flex-col-center" id="main-title-container">
-    {% include 'forgetforcharity/svg/forgetforcharity-leaves.svg' %}
-    <div class="flex-row-center">
-        <button id="sign-in">Sign In</button>
-        <button id="sign-up">Sign Up</button>
+<div class="section-container">
+    <div class="flex-col-center" id="main-title-container">
+        {% include 'forgetforcharity/svg/forgetforcharity-leaves.svg' %}
+        <div class="large-text">
+            Leverage your laziness
+        </div>
+        <div class="flex-row-center">
+            <button id="sign-in">Sign In</button>
+            <button id="sign-up">Sign Up</button>
+        </div>
+        <div id="scroll-label" class="small-label"><br/><br/>Scroll down<br/>↓</div>
+        <img id="zzz" src="{% static 'forgetforcharity/media/zzz.gif' %}">
     </div>
+    {% include 'forgetforcharity/svg/scientist-cartoon.svg' %}
+    {% include 'forgetforcharity/svg/sleeping-man-cartoon.svg' %}
+    {% include 'forgetforcharity/svg/arm.svg' %}
 </div>
-</div>
-<div id="section-1" class='section-container flex-col-center'>
+<div class='section-container flex-col-center' id="section-1">
     <p>test</p>
 </div>
 </body>

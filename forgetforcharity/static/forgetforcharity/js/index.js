@@ -11,6 +11,8 @@ $(document).ready(function () {
     TweenMax.to(leaves, 0.3, {scale: 1.5, opacity: 1, delay: 0.5, ease: Power1.easeOut});
     TweenMax.to(leaves, 0.1, {scale: 1, delay: 0.8});
 
+    TweenMax.to("#scroll-label", 1, {opacity: 1, delay: 2, ease: Power1.easeOut});
+
     $(window).scroll(function () {
         if ($(this).scrollTop() > button_pos) {
             nav_bar.css('display', 'flex');
